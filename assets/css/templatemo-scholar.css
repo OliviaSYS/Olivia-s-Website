@@ -953,6 +953,31 @@ Courses Style
 --------------------------------------------- 
 */
 
+.content_dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  padding-bottom: 2%;
+  min-width: 200px;
+  max-width: 75%;
+  box-shadow: 0px 8px 16px 0px #887fbb;
+  border-radius: 10%;
+  z-index: 1;
+  margin: 0;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+}
+
+.content_dropdown a {
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.nav:hover .content_dropdown {
+  display: block;
+}
+
 .courses {
   margin-top: 160px;
 }
